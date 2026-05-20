@@ -78,9 +78,6 @@ The desk should establish a simple daily cadence:
 1. Run `python performance_report.py --window 7 --save` — review with the desk.
 2. Cross-check live P&L against the system's calculated P&L. Differences must be reconciled.
 
-**Monthly:**
-1. Run `python performance_report.py --window 30 --save`.
-2. Present to OQG general body.
 
 ---
 
