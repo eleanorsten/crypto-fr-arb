@@ -1,0 +1,69 @@
+==============================================================================
+  FRA-001  ·  DAILY SIGNAL REPORT
+  Generated: 2026-05-20 06:17:19
+  As-of:     2026-05-17 16:00:00
+  Config:    Sharpe-Optimal  (Recommended production configuration)
+==============================================================================
+
+  SUMMARY:  1 LONG-BASIS  ·  0 SHORT-BASIS  ·  4 FLAT
+
+==============================================================================
+
+  [BTC ]    FLAT (no action)            CONFIDENCE: HIGH
+          Spot:        $   39,604.93
+          Perp:        $   39,607.54
+          Basis:        +0.0066%
+          Funding 8h:   +0.0131%   (APR raw +14.4%, smoothed +20.2%)
+          Regime:      BULL
+          Rationale:   Smoothed funding +20.2% APR within neutral band (±40%). No entry signal.
+
+  [ETH ]    FLAT (no action)            CONFIDENCE: HIGH
+          Spot:        $    6,253.75
+          Perp:        $    6,253.88
+          Basis:        +0.0020%
+          Funding 8h:   +0.0203%   (APR raw +22.3%, smoothed +37.1%)
+          Regime:      BULL
+          Rationale:   Smoothed funding +37.1% APR within neutral band (±40%). No entry signal.
+
+  [SOL ]  → ENTER  LONG-BASIS           CONFIDENCE: MEDIUM
+          Spot:        $      227.83
+          Perp:        $      227.86
+          Basis:        +0.0135%
+          Funding 8h:   +0.0473%   (APR raw +51.8%, smoothed +57.7%)
+          Regime:      BULL
+          Rationale:   Smoothed funding 57.7% APR > entry threshold 40% with 1-period confirmation. Regime: BULL.
+          Expected:    ~10.5 day hold, ~1.66% yield on notional
+          EXECUTION:
+            BUY   43.893324 SOL spot   @ ~$227.83
+            SELL  43.887398 SOL perp   @ ~$227.86
+            Notional per leg: $10,000  ·  Est round-trip cost: $36.00
+
+  [BNB ]    FLAT (no action)            CONFIDENCE: HIGH
+          Spot:        $      787.24
+          Perp:        $      787.27
+          Basis:        +0.0033%
+          Funding 8h:   +0.0214%   (APR raw +23.4%, smoothed +18.4%)
+          Regime:      CHOP
+          Rationale:   Smoothed funding +18.4% APR within neutral band (±40%). No entry signal.
+
+  [XRP ]    FLAT (no action)            CONFIDENCE: HIGH
+          Spot:        $        0.16
+          Perp:        $        0.16
+          Basis:        +0.0059%
+          Funding 8h:   +0.0331%   (APR raw +36.3%, smoothed +20.5%)
+          Regime:      BULL
+          Rationale:   Smoothed funding +20.5% APR within neutral band (±40%). No entry signal.
+
+==============================================================================
+  ACTIONS FOR THE DESK
+==============================================================================
+
+  1. Review each ENTER signal above. Verify funding rate against live
+     exchange data before committing capital.
+  2. Execute legs simultaneously to minimize slippage between spot/perp.
+  3. Set basis-stop alert at ±1.0% deviation; auto-close on trigger.
+  4. Log entry in trade journal; tag with this report timestamp.
+
+==============================================================================
+  END OF REPORT
+==============================================================================

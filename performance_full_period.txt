@@ -1,0 +1,53 @@
+==============================================================================
+  FRA-001  ·  PERFORMANCE REPORT  ·  FULL PERIOD
+  Generated: 2026-05-20 06:18:17
+  Config:    Sharpe-Optimal
+==============================================================================
+
+  HEADLINE
+------------------------------------------------------------------------------
+    Period:                 2023-05-20 to 2026-05-17  (1093 days)
+    Closed trades:          274
+    Win rate:               68.98%   (189 wins, 85 losses)
+    Net P&L:                $+26,544.67
+    Period return:          +53.09%  on $50,000 working capital
+    Annualized:             +17.73%
+
+  RISK & QUALITY
+------------------------------------------------------------------------------
+    Sharpe ratio (daily-resample):  4.41
+    Max drawdown:                   -0.93%
+    Profit factor:                  9.00  ($29,864 won / $3,319 lost)
+    Avg winner:                     $+158.01
+    Avg loser:                      $-39.05
+    Largest winner:                 $+1,653.11
+    Largest loser:                  $-252.14
+    Avg hold (days):                12.8
+
+  PER-ASSET ATTRIBUTION
+------------------------------------------------------------------------------
+    Asset      N   WinRate       TotalPnL     AvgPnL   AvgHold   Contrib
+    SOL       66     60.6%  $  +7,831.32 $ +118.66    13.1d   +29.5%
+    ETH       54     72.2%  $  +5,812.69 $ +107.64    13.4d   +21.9%
+    XRP       69     71.0%  $  +5,579.65 $  +80.86    10.9d   +21.0%
+    BTC       38     73.7%  $  +3,945.81 $ +103.84    14.6d   +14.9%
+    BNB       47     70.2%  $  +3,375.19 $  +71.81    12.8d   +12.7%
+
+  DIRECTION SPLIT
+------------------------------------------------------------------------------
+    Long-Basis (long spot / short perp)       170 trades  WR 74.1%   $+21,491.58
+    Short-Basis (short spot / long perp)      104 trades  WR 60.6%   $+5,053.09
+
+  EXIT REASONS
+------------------------------------------------------------------------------
+    Funding signal lost (normal exit)                   269 trades  ( 98.2%)
+    End of backtest period                                4 trades  (  1.5%)
+    Max-hold safety valve                                 1 trades  (  0.4%)
+
+  VERDICT
+------------------------------------------------------------------------------
+    ON TARGET   — Strategy performing within backtest expectations.
+
+==============================================================================
+  END OF REPORT
+==============================================================================
